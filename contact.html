@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="UTF-8">
 		<title>SupInfo Contact</title>
-		<img src="Logo.png" alt="Logo">
+		<link rel="icon" href="Logo.png" type="image/gif">
 	</head>
 	<body>
 		<header>
@@ -17,10 +17,55 @@
 		</header>
 		<hr>
 		<div>
-			
+			<center>
+				<h1>Formulaire de Contact</h1>
+				<form style="color: #3a277e;">
+					<label for="campus">Sélectionnez le campus souhaité : </label>
+					<select name="campus" id="campus">
+						<option value=""> </option>
+						<option value="lille">Lille</option>
+						<option value="lyon">Lyon</option>
+						<option value="paris">Paris</option>
+						<option value="tour">Tour</option>
+						<option value="caen">Caen</option>
+						<option value="distantiel">Distanciel</option>
+					</select>
+					<br>
+					<label for="civilite">Sélectionnez votre civilité : </label>
+					<select name="civilite" id="civilite">
+						<option value=""> </option>
+						<option value="monsieur">Monsieur</option>
+						<option value="madame">Madame</option>
+					</select>
+					<br>
+					<label for="prenom">Entrez votre prénom : </label>
+					<input type="text" name="prenom" id="prenom" placeholder="Jean-Pierre">
+					<br>
+					<label for="nom">Entrez votre nom : </label>
+					<input type="text" name="nom" id="nom" placeholder="Durand">
+					<br>
+					<label for="email">Entrez votre e-mail : </label>
+					<input type="email" name="email" id="email" placeholder="example@supinfo.com">
+					<br>
+					<label for="phone">Entrez votre numéro de téléphone : </label>
+					<input type="tel" name="phone" id="phone" placeholder="0612345678">
+					<br>
+					<label for="date">Entrez votre date de naissance : </label>
+					<input type="date" name="date" id="date" value="2004-12-04">
+					<br>
+					<label for="fichier">Importez votre CV : </label>
+					<input type="file" name="fichier" id="fichier">
+					<br>
+					<label for="explication">Parlez-nous de vous : </label><br>
+					<textarea name="explication" id="explication" rows="8" style="width: 25%;">Je suis ...</textarea>
+					<br>
+					
+				</form>
+				
+			</center>
 		</div>
-		<footer>
-			
+		<footer style="background-color: #3a277e; color: white;">
+			<center><p>Site créer par Aksel & Elias pour SupInfo <br>© 2022 Toute Copie totale ou partielle est interdite</p></center>
 		</footer>
 	</body>
 </html>
