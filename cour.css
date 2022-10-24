@@ -48,19 +48,19 @@ a.v{
 
 hr{
 	border-top: 3px solid #3A277E;
-	width: 100%;
+	margin-left: -10px;
+	width: 200%;
 }
 
-.tableau1{
-	border: solid 2px black;
+.gauche{
+	float: left;
 }
 
-h2{
+.droite{
+	float: right;
+	border-right: 2px #ddd;
+}
+
+h1{
 	text-align: center;
-}
-
-@media only screen and (min-width: 1500px){
-header{
-		background-color: black;
-	}
 }

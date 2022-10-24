@@ -5,12 +5,14 @@
 	box-shadow: 0 5px 50px rgba(0, 0, 0,0.40);
 	cursor: pointer;
 	margin: 100px auto;
+	border: solid 3px #3A277E;
 }
 
 thead tr{
 	background-color: #3A277E;
 	color: #fff;
 	text-align: left;
+
 
 }
 
