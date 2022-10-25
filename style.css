@@ -1,66 +1,74 @@
-header{
-/*	background-color: #ffffff;*/
-/*	color: #3a277e;*/
-	justify-content: center;
-	align-items: center;
-	vertical-align: middle;
-	line-height: 50px;
+header {
+  /*	background-color: #ffffff;*/
+  /*	color: #3a277e;*/
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
-nav{
-	width: 100%;
-	height: 100px;
-	background-color: #FFFFFF;
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
 }
 
-img{
-	height: 100px;
-	width: 100px;
+img {
+  height: 100px;
+  width: 100px;
 }
 
 #container {
-	width:100%;
-	text-align:center;
-	
+  width: 100%;
+  text-align: center;
 }
 
 #gauche {
-	float:left;
-	width:40%;
-	height: 100px;
+  float: left;
+  width: 40%;
+  height: 100px;
 }
 
 #droit {
-	float:right;
-	width:60%;
-	height: 50%;
+  float: right;
+  width: 60%;
+  height: 50%;
 }
 
-a.v{
-	border-radius: 5%;
-	text-decoration: none;
-	color: white;
-	background-color: #3a277e;
-	margin-right: 5px;
-	padding: 1% 1%;
+a.v {
+  border-radius: 5%;
+  text-decoration: none;
+  color: white;
+  background-color: #3a277e;
+  margin-right: 5px;
+  padding: 1% 1%;
 }
 
-
-hr{
-	border-top: 3px solid #3A277E;
-	width: 100%;
+hr {
+  border-top: 3px solid #3a277e;
+  width: 100%;
 }
 
-.tableau1{
-	border: solid 2px black;
+.tableau1 {
+  border: solid 2px black;
 }
 
-h2{
-	text-align: center;
+h2 {
+  text-align: center;
 }
 
-@media only screen and (min-width: 1500px){
-header{
-		background-color: black;
-	}
+.cadre {
+  border: solid 2px #3a277e;
+  width: 60%;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+}
+
+.titre {
+  text-align: right;
+}
+
+@media only screen and (min-width: 1500px) {
+  header {
+    background-color: black;
+  }
 }
