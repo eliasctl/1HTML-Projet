@@ -1,6 +1,4 @@
 header {
-  /*	background-color: #ffffff;*/
-  /*	color: #3a277e;*/
   justify-content: center;
   align-items: center;
   vertical-align: middle;
@@ -21,6 +19,8 @@ img {
 #container {
   width: 100%;
   text-align: center;
+  position: fixed;
+  background-color: white;
 }
 
 #gauche {
@@ -68,16 +68,9 @@ h2 {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-}
-
-@media only screen and (min-width: 1500px) {
-  header {
-    background-color: black;
-  }
 }
 
 .grid-auto {
@@ -88,8 +81,10 @@ footer {
 }
 .grid-auto div {
   border: solid 2px #3a277e;
-  background-color: #dddddd;
+  background-color: #F8F8F8;
 }
+
+
 
 @media only screen and (min-width: 1280px) {
   .grid-auto {
