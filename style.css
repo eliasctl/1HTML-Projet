@@ -79,9 +79,13 @@ footer {
   border: solid 2px #3a277e;
   background-color: #f8f8f8;
 }
-
+/*--- CSS de la partie Cours ---*/
 .titreCours {
   text-align: center;
+}
+
+.campusSup {
+  color: #3a277e;
 }
 
 .cadre1 {
@@ -117,6 +121,48 @@ footer {
 
 .imgG {
   height: 250px;
+  width: auto;
+}
+
+/*--- CSS de la page d'acceuil ---*/
+
+.photoParis {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110%;
+  width: auto;
+}
+
+.photoTours {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110%;
+  width: auto;
+}
+
+.photoLille {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110%;
+  width: auto;
+}
+
+.photoCaen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110%;
+  width: auto;
+}
+
+.photoLyon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110%;
   width: auto;
 }
 
