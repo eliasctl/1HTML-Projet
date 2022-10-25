@@ -67,8 +67,8 @@ h1 {
   text-align: right;
 }
 
-.imgD {
-}
-
-.imgG {
+.cadre1 {
+  border: solid 2px #3a277e;
+  width: 60%;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
 }
