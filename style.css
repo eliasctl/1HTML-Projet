@@ -79,3 +79,20 @@ footer {
     background-color: black;
   }
 }
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  border: solid 2px #3a277e;
+}
+.grid-auto div {
+  border: solid 2px #3a277e;
+  background-color: #dddddd;
+}
+
+@media only screen and (min-width: 1280px) {
+  .grid-auto {
+    width: 70%;
+  }
+}
