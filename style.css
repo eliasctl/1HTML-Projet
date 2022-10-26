@@ -88,29 +88,11 @@ footer {
   color: #3a277e;
 }
 
-.cadre1 {
+.cadrecours {
   position: relative;
-  left: 39%;
   text-align: center;
   border: solid 2px #3a277e;
-  width: 60%;
-  box-shadow: 0 5px 50px rgba(115, 47, 149, 0.475);
-}
-
-.cadre2 {
-  text-align: center;
-  border: solid 2px #3a277e;
-  width: 60%;
-  box-shadow: 0 5px 50px rgba(115, 47, 149, 0.475);
-}
-
-.cadre3 {
-  position: relative;
-  left: 39%;
-  text-align: center;
-  margin-right: 100%;
-  border: solid 2px #3a277e;
-  width: 60%;
+  width: 100%;
   box-shadow: 0 5px 50px rgba(115, 47, 149, 0.475);
 }
 
@@ -170,4 +152,8 @@ footer {
   .grid-auto {
     width: 70%;
   }
+  .cadrecours{
+    width: 60%;
+  }
+  
 }
